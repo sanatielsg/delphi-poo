@@ -1,0 +1,19 @@
+unit UHomem;
+
+interface
+
+uses UAnimal;
+
+type
+  THomem = class(TAnimal)
+    private
+      FDocumento    : string;
+      FEscolaridade : string;
+    public
+      property Documento : string read FDocumento write FDocumento;
+      property Escolaridade : string read FEscolaridade write FEscolaridade;
+  end;
+
+implementation
+
+end.

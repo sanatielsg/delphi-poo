@@ -1,0 +1,72 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UHomem, Vcl.StdCtrls, UAnimal, UGato;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    ComboBox1: TComboBox;
+    Label1: TLabel;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Falar();
+  end;
+
+var
+  Form1: TForm1;
+
+const
+  GATO = 0;
+  CACHORRO = 1;
+  HOMEM = 3;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm1 }
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Falar;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+  var Animal : TAnimal;
+begin
+  case ComboBox1.ItemIndex of
+    GATO: begin
+      Animal := TGato.Create;
+
+    end;
+    CACHORRO: begin
+
+    end;
+    HOMEM : begin
+
+    end;
+  end;
+end;
+
+procedure TForm1.Falar;
+  var Homem: THomem;
+begin
+ Homem:= THomem.Create();
+ try
+   Homem.Falar;
+ finally
+   FreeAndNil(Homem);
+ end;
+
+end;
+
+end.

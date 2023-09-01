@@ -1,0 +1,22 @@
+unit UMonstro;
+
+interface
+
+uses UAnimal;
+
+type
+  TMonstro = class(TAnimal)
+    public
+      procedure Falar();
+  end;
+
+implementation
+
+{ TMonstro }
+
+procedure TMonstro.Falar;
+begin
+  Inherited;
+end;
+
+end.

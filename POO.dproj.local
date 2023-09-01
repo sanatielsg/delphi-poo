@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/09/01 16:10:36.983,=C:\Users\dev\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:12:39.827,C:\git-repositories\delphi-poo\UPrincipal.pas=C:\Users\dev\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:12:39.827,C:\git-repositories\delphi-poo\UPrincipal.dfm=C:\Users\dev\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/09/01 16:12:46.065,C:\git-repositories\delphi-poo\POO.dproj=C:\Users\dev\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/09/01 16:12:58.212,=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:18:51.357,C:\git-repositories\delphi-poo\UAnimal.pas=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:21:29.576,=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:21:41.292,C:\git-repositories\delphi-poo\UHomem.pas=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:44:23.771,=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:44:29.281,C:\git-repositories\delphi-poo\UGato.pas=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:49:13.858,=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 16:49:39.705,C:\git-repositories\delphi-poo\UCachorro.pas=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 17:00:45.402,=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 17:01:11.341,C:\git-repositories\delphi-poo\UMonstro.pas=C:\git-repositories\delphi-poo\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

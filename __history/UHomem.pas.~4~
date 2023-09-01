@@ -1,0 +1,18 @@
+unit UHomem;
+
+interface
+
+uses UAnimal;
+
+type
+  THomem = class(TAnimal)
+    private
+      FDocumento    : string;
+      FEscolaridade : string;
+    public
+
+  end;
+
+implementation
+
+end.

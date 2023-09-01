@@ -1,0 +1,14 @@
+unit UCachorro;
+
+interface
+
+uses
+  UAnimal, Vcl.Dialogs;
+
+type
+  TCachorro = class(TAnimal)
+  end;
+
+implementation
+
+end.

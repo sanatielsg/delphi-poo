@@ -1,0 +1,16 @@
+unit UAnimal;
+
+interface
+
+type
+  TAnimal = class
+    private
+      FDataNascimento : TDate;
+      FPeso : Double;
+    public
+
+  end;
+
+implementation
+
+end.

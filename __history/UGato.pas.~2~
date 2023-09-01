@@ -1,0 +1,14 @@
+unit UGato;
+
+interface
+
+uses
+  UAnimal;
+
+type
+  TGato = class(TAnimal)
+  end;
+
+implementation
+
+end.

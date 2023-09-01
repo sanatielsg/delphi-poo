@@ -1,0 +1,17 @@
+unit UHomem;
+
+interface
+
+uses UAnimal;
+
+type
+  THomem = class(TAnimal)
+    private
+
+    public
+
+  end;
+
+implementation
+
+end.

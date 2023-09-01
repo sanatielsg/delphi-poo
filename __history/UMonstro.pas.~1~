@@ -1,0 +1,14 @@
+unit UMonstro;
+
+interface
+
+uses UAnimal;
+
+type
+  TMonstro = class(TAnimal)
+
+  end;
+
+implementation
+
+end.

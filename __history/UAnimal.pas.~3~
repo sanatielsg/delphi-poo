@@ -1,0 +1,17 @@
+unit UAnimal;
+
+interface
+
+type
+  TAnimal = class
+    private
+      FDataNascimento : TDate;
+      FPeso : Double;
+    public
+      property DataNascimento : TDate read FDataNascimento write FDataNascimento;
+      property Peso           : Double read FPeso write FPeso;
+  end;
+
+implementation
+
+end.
